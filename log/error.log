@@ -1,0 +1,140 @@
+2017-04-06 16:20:03.404 [error] <0.266.0> gen_server <0.266.0> terminated with reason: bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:handle/2 line 157
+2017-04-06 16:20:03.487 [error] <0.266.0> CRASH REPORT Process <0.266.0> with 0 neighbours exited with reason: bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:handle/2 line 157
+2017-04-06 16:20:03.487 [error] <0.265.0> Supervisor {<0.265.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,cb_tut},{controllers,[]}]) at <0.266.0> exit with reason bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:handle/2 line 157 in context child_terminated
+2017-04-06 16:20:03.618 [error] <0.284.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: exit:{{badarg,
+          [{erlang,list_to_atom,[undefined],[]},
+           {boss_router_controller,handle,2,
+               [{file,"src/boss/boss_router_controller.erl"},{line,157}]},
+           {boss_router_controller,handle_call,3,
+               [{file,"src/boss/boss_router_controller.erl"},{line,71}]},
+           {gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},
+           {gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},
+           {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},
+      {gen_server,call,[<0.266.0>,{handle,404}]}} Stacktrace: [{gen_server,call,2,[{file,"gen_server.erl"},{line,204}]},{boss_web_controller_handle_request,process_not_found,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,283}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,271}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,243}]},{timer,tc,3,[{file,"timer.erl"},{line,197}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,136}]},{boss_web_controller_handle_request,handle_request,2,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,35}]},{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,26}]}]
+2017-04-06 16:20:08.643 [error] <0.288.0> gen_server <0.288.0> terminated with reason: bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:handle/2 line 157
+2017-04-06 16:20:08.643 [error] <0.288.0> CRASH REPORT Process <0.288.0> with 0 neighbours exited with reason: bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:handle/2 line 157
+2017-04-06 16:20:08.643 [error] <0.265.0> Supervisor {<0.265.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,cb_tut},{controllers,[]}]) at <0.288.0> exit with reason bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:handle/2 line 157 in context child_terminated
+2017-04-06 16:20:08.644 [error] <0.290.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: exit:{{badarg,
+          [{erlang,list_to_atom,[undefined],[]},
+           {boss_router_controller,handle,2,
+               [{file,"src/boss/boss_router_controller.erl"},{line,157}]},
+           {boss_router_controller,handle_call,3,
+               [{file,"src/boss/boss_router_controller.erl"},{line,71}]},
+           {gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},
+           {gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},
+           {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},
+      {gen_server,call,[<0.288.0>,{handle,404}]}} Stacktrace: [{gen_server,call,2,[{file,"gen_server.erl"},{line,204}]},{boss_web_controller_handle_request,process_not_found,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,283}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,271}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,243}]},{timer,tc,3,[{file,"timer.erl"},{line,197}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,136}]},{boss_web_controller_handle_request,handle_request,2,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,35}]},{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,26}]}]
+2017-04-06 16:20:11.991 [error] <0.294.0> gen_server <0.294.0> terminated with reason: bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:route/2 line 182
+2017-04-06 16:20:11.991 [error] <0.294.0> CRASH REPORT Process <0.294.0> with 0 neighbours exited with reason: bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:route/2 line 182
+2017-04-06 16:20:11.991 [error] <0.265.0> Supervisor {<0.265.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,cb_tut},{controllers,[]}]) at <0.294.0> exit with reason bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:route/2 line 182 in context child_terminated
+2017-04-06 16:20:11.992 [error] <0.290.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: exit:{{badarg,
+          [{erlang,list_to_atom,[undefined],[]},
+           {boss_router_controller,route,2,
+               [{file,"src/boss/boss_router_controller.erl"},{line,182}]},
+           {boss_router_controller,handle_call,3,
+               [{file,"src/boss/boss_router_controller.erl"},{line,76}]},
+           {gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},
+           {gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},
+           {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},
+      {gen_server,call,[<0.294.0>,{route,"/"}]}} Stacktrace: [{gen_server,call,2,[{file,"gen_server.erl"},{line,204}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,251}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,243}]},{timer,tc,3,[{file,"timer.erl"},{line,197}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,136}]},{boss_web_controller_handle_request,handle_request,2,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,35}]},{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,26}]},{cowboy_simple_bridge_anchor,handle,2,[{file,"src/cowboy_bridge_modules/cowboy_simple_bridge_anchor.erl"},{line,34}]}]
+2017-04-06 16:22:01.512 [error] <0.297.0> gen_server <0.297.0> terminated with reason: bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:handle/2 line 157
+2017-04-06 16:22:01.512 [error] <0.297.0> CRASH REPORT Process <0.297.0> with 0 neighbours exited with reason: bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:handle/2 line 157
+2017-04-06 16:22:01.512 [error] <0.265.0> Supervisor {<0.265.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,cb_tut},{controllers,[]}]) at <0.297.0> exit with reason bad argument in call to erlang:list_to_atom(undefined) in boss_router_controller:handle/2 line 157 in context child_terminated
+2017-04-06 16:22:01.512 [error] <0.299.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: exit:{{badarg,
+          [{erlang,list_to_atom,[undefined],[]},
+           {boss_router_controller,handle,2,
+               [{file,"src/boss/boss_router_controller.erl"},{line,157}]},
+           {boss_router_controller,handle_call,3,
+               [{file,"src/boss/boss_router_controller.erl"},{line,71}]},
+           {gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},
+           {gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},
+           {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},
+      {gen_server,call,[<0.297.0>,{handle,404}]}} Stacktrace: [{gen_server,call,2,[{file,"gen_server.erl"},{line,204}]},{boss_web_controller_handle_request,process_not_found,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,283}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,271}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,243}]},{timer,tc,3,[{file,"timer.erl"},{line,197}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,136}]},{boss_web_controller_handle_request,handle_request,2,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,35}]},{boss_simple_bridge_handler,run,1,[{file,"src/boss/boss_simple_bridge_handler.erl"},{line,26}]}]
+2017-04-06 16:22:05.821 [error] <0.299.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: error:{case_clause,undefined} Stacktrace: [{boss_controller_adapter_pmod,get_instance,2,[{file,"src/boss/controller_adapters/boss_controller_adapter_pmod.erl"},{line,33}]},{boss_controller_adapter_pmod,before_filter,2,[{file,"src/boss/controller_adapters/boss_controller_adapter_pmod.erl"},{line,64}]},{boss_web_controller,apply_before_filters,3,[{file,"src/boss/boss_web_controller.erl"},{line,354}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,289}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,276}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,256}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,243}]},{timer,tc,3,[{file,"timer.erl"},{line,197}]}]
+2017-04-06 16:22:36.114 [error] <0.305.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: error:{case_clause,undefined} Stacktrace: [{boss_controller_adapter_pmod,get_instance,2,[{file,"src/boss/controller_adapters/boss_controller_adapter_pmod.erl"},{line,33}]},{boss_controller_adapter_pmod,before_filter,2,[{file,"src/boss/controller_adapters/boss_controller_adapter_pmod.erl"},{line,64}]},{boss_web_controller,apply_before_filters,3,[{file,"src/boss/boss_web_controller.erl"},{line,354}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,289}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,276}]},{boss_web_controller_handle_request,process_dynamic_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,256}]},{boss_web_controller_handle_request,process_request,5,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,243}]},{timer,tc,3,[{file,"timer.erl"},{line,197}]}]
+2017-04-06 16:25:29.450 [error] <0.311.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:29:00.107 [error] <0.314.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:29:04.261 [error] <0.314.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:29:20.982 [error] <0.319.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:34:50.626 [error] <0.321.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> {"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{{5,30},erl_scan,{string,34,"}]).\n"}}]}
+2017-04-06 16:34:52.626 [error] <0.321.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> {"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{{5,30},erl_scan,{string,34,"}]).\n"}}]}
+2017-04-06 16:35:12.494 [error] <0.326.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]},{5,erl_parse,["syntax error before: ","')'"]}]}]
+2017-04-06 16:35:13.400 [error] <0.326.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]},{5,erl_parse,["syntax error before: ","')'"]}]}]
+2017-04-06 16:35:15.927 [error] <0.326.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]},{5,erl_parse,["syntax error before: ","')'"]}]}]
+2017-04-06 16:37:16.357 [error] <0.332.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:37:38.545 [error] <0.334.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:37:39.254 [error] <0.334.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:37:40.031 [error] <0.334.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:37:50.866 [error] <0.338.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:44:14.932 [error] <0.343.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:44:16.277 [error] <0.343.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:48:03.382 [error] <0.349.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:48:17.560 [error] <0.351.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:50:36.120 [error] <0.355.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:50:47.985 [error] <0.360.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:50:52.016 [error] <0.360.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:56:32.064 [error] <0.365.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:56:32.157 [error] <0.365.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: error:function_clause Stacktrace: [{boss_controller_compiler,add_export_to_forms,[[],
+                                              [{function,1,ping,2,
+                                                [{clause,1,
+                                                  [{atom,1,'GET'},{nil,1}],
+                                                  [],
+                                                  [{tuple,2,
+                                                    [{atom,2,ok},
+                                                     {cons,2,
+                                                      {tuple,2,
+                                                       [{atom,2,testing},
+                                                        {string,2,"Pong!"}]},
+                                                      {nil,2}}]}]}]},
+                                               {attribute,1,file,
+                                                {"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_testing_controller.erl",
+                                                 1}}]],[{file,"src/boss/boss_controller_compiler.erl"},{line,93}]},{boss_controller_compiler,add_routes_to_forms,1,[{file,"src/boss/boss_controller_compiler.erl"},{line,77}]},{boss_compiler,handle_parse_success,4,[{file,"src/boss_compiler.erl"},{line,62}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,263}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,224}]},{boss_load,load_dirs1,6,[{file,"src/boss/boss_load.erl"},{line,213}]},{lists,foldl,3,[{file,"lists.erl"},{line,1262}]},{boss_web_controller_handle_request,load_and_execute,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,479}]}]
+2017-04-06 16:56:41.317 [error] <0.369.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:56:41.448 [error] <0.369.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: error:function_clause Stacktrace: [{boss_controller_compiler,add_export_to_forms,[[],
+                                              [{function,1,ping,2,
+                                                [{clause,1,
+                                                  [{atom,1,'GET'},{nil,1}],
+                                                  [],
+                                                  [{tuple,2,
+                                                    [{atom,2,ok},
+                                                     {cons,2,
+                                                      {tuple,2,
+                                                       [{atom,2,testing},
+                                                        {string,2,"Pong!"}]},
+                                                      {nil,2}}]}]}]},
+                                               {attribute,1,file,
+                                                {"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_testing_controller.erl",
+                                                 1}}]],[{file,"src/boss/boss_controller_compiler.erl"},{line,93}]},{boss_controller_compiler,add_routes_to_forms,1,[{file,"src/boss/boss_controller_compiler.erl"},{line,77}]},{boss_compiler,handle_parse_success,4,[{file,"src/boss_compiler.erl"},{line,62}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,263}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,224}]},{boss_load,load_dirs1,6,[{file,"src/boss/boss_load.erl"},{line,213}]},{lists,foldl,3,[{file,"lists.erl"},{line,1262}]},{boss_web_controller_handle_request,load_and_execute,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,479}]}]
+2017-04-06 16:56:44.675 [error] <0.369.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:56:44.750 [error] <0.369.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: error:function_clause Stacktrace: [{boss_controller_compiler,add_export_to_forms,[[],
+                                              [{function,1,ping,2,
+                                                [{clause,1,
+                                                  [{atom,1,'GET'},{nil,1}],
+                                                  [],
+                                                  [{tuple,2,
+                                                    [{atom,2,ok},
+                                                     {cons,2,
+                                                      {tuple,2,
+                                                       [{atom,2,testing},
+                                                        {string,2,"Pong!"}]},
+                                                      {nil,2}}]}]}]},
+                                               {attribute,1,file,
+                                                {"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_testing_controller.erl",
+                                                 1}}]],[{file,"src/boss/boss_controller_compiler.erl"},{line,93}]},{boss_controller_compiler,add_routes_to_forms,1,[{file,"src/boss/boss_controller_compiler.erl"},{line,77}]},{boss_compiler,handle_parse_success,4,[{file,"src/boss_compiler.erl"},{line,62}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,263}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,224}]},{boss_load,load_dirs1,6,[{file,"src/boss/boss_load.erl"},{line,213}]},{lists,foldl,3,[{file,"lists.erl"},{line,1262}]},{boss_web_controller_handle_request,load_and_execute,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,479}]}]
+2017-04-06 16:56:44.860 [error] <0.369.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greet_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greet_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
+2017-04-06 16:56:45.030 [error] <0.369.0>@boss_web_controller_handle_request:handle_request:39 Unhandled Error: error:function_clause Stacktrace: [{boss_controller_compiler,add_export_to_forms,[[],
+                                              [{function,1,ping,2,
+                                                [{clause,1,
+                                                  [{atom,1,'GET'},{nil,1}],
+                                                  [],
+                                                  [{tuple,2,
+                                                    [{atom,2,ok},
+                                                     {cons,2,
+                                                      {tuple,2,
+                                                       [{atom,2,testing},
+                                                        {string,2,"Pong!"}]},
+                                                      {nil,2}}]}]}]},
+                                               {attribute,1,file,
+                                                {"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_testing_controller.erl",
+                                                 1}}]],[{file,"src/boss/boss_controller_compiler.erl"},{line,93}]},{boss_controller_compiler,add_routes_to_forms,1,[{file,"src/boss/boss_controller_compiler.erl"},{line,77}]},{boss_compiler,handle_parse_success,4,[{file,"src/boss_compiler.erl"},{line,62}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,263}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,224}]},{boss_load,load_dirs1,6,[{file,"src/boss/boss_load.erl"},{line,213}]},{lists,foldl,3,[{file,"lists.erl"},{line,1262}]},{boss_web_controller_handle_request,load_and_execute,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,479}]}]
+2017-04-06 16:58:49.503 [error] <0.375.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greeting_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl",[{1,erl_parse,["syntax error before: ","'['"]}]}]
