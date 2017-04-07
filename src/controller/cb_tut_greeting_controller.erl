@@ -11,7 +11,7 @@ list('GET', []) ->
 create('GET', []) ->
 ok;
 create('POST', []) ->
- GreetingText = Req:post_param("greeting_text"),
+ GreetingText = Req:param("greeting_text"),
  NewGreeting = greeting:new(id, GreetingText),
  {ok, SavedGreeting} = NewGreeting:save(),
  {redirect, [{action, "list"}]}.

@@ -373,3 +373,55 @@
 2017-04-06 22:43:57.838 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
 2017-04-06 22:44:00.189 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 2ms
 2017-04-06 22:44:00.198 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 22:45:08.890 [info] <0.387.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 5ms
+2017-04-06 22:48:03.806 [notice] <0.390.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/model/greeting.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:48:03.806 [info] <0.390.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},greeting},{',',{1,17}},{'[',{1,19}},{var,{1,20},'Id'},{',',{1,22}},{var,{1,24},'GreetingText'},{']',{1,36}},{')',{1,37}},{dot,{1,38}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{atom,{4,1},validation_tests},{'(',{4,17}},{')',{4,18}},{'->',{4,20}},{'[',{5,2}},{'{',{5,3}},{fun,{5,4}},{'(',{5,7}},{')',{5,8}},{'->',{5,10}},{atom,{5,13},length},{'(',{5,19}},{var,{5,20},'GreetingText'},{')',{5,32}},{'>',{5,34}},{integer,{5,36},0},{end,{5,38}},{',',{5,41}},{string,{6,2},"Greeting must be nonempty"},{'}',{6,29}},{',',{6,30}},{'{',{7,3}},{fun,{7,4}},{'(',{7,7}},{')',{7,8}},{'->',{7,10}},{atom,{7,13},length},{'(',{7,19}},{var,{7,20},'GreetingText'},{')',{7,32}},{'=<',{7,34}},{integer,{7,37},140},{end,{7,41}},{',',{7,44}},{string,{8,2},"Too long!"},{'}',{8,13}},{']',{8,14}},{dot,{8,15}},{eof,{9,1}}]
+2017-04-06 22:48:03.806 [notice] <0.390.0>@boss_record_compiler:make_generated_forms:225 Module "greeting" Parameters ['Id','GreetingText'] Attributes[{compile,export_all}]
+2017-04-06 22:48:03.819 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 15ms
+2017-04-06 22:48:06.676 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 3ms
+2017-04-06 22:48:06.684 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 22:48:08.356 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 6ms
+2017-04-06 22:48:10.133 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 3ms
+2017-04-06 22:48:10.141 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 22:48:14.415 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 4ms
+2017-04-06 22:48:14.422 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 22:48:16.530 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 5ms
+2017-04-06 22:48:16.536 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 22:48:17.533 [info] <0.390.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 4ms
+2017-04-06 22:48:23.047 [info] <0.403.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 4ms
+2017-04-06 22:48:23.054 [info] <0.403.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 22:48:25.636 [info] <0.403.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 5ms
+2017-04-06 22:49:16.859 [info] <0.407.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 4ms
+2017-04-06 22:49:16.866 [info] <0.407.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 22:50:53.650 [info] <0.410.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 4ms
+2017-04-06 22:50:53.657 [info] <0.410.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 22:50:56.934 [info] <0.410.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 11ms
+2017-04-06 22:50:56.954 [info] <0.410.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 12ms
+2017-04-06 22:51:10.160 [info] <0.415.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 5ms
+2017-04-06 22:51:13.148 [info] <0.415.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 5ms
+2017-04-06 22:51:13.155 [info] <0.415.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 22:56:38.764 [info] <0.419.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 22:56:38.764 [notice] <0.419.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:56:38.772 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 10ms
+2017-04-06 22:56:40.191 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 5ms
+2017-04-06 22:56:41.282 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 4ms
+2017-04-06 22:56:41.301 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 6ms
+2017-04-06 22:56:42.758 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 4ms
+2017-04-06 22:56:46.311 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 12ms
+2017-04-06 22:56:46.328 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 10ms
+2017-04-06 22:56:50.925 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 12ms
+2017-04-06 22:56:50.940 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 7ms
+2017-04-06 22:56:53.613 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 4ms
+2017-04-06 22:56:53.620 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 22:56:55.707 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 4ms
+2017-04-06 22:56:55.714 [info] <0.419.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 23:01:53.580 [info] <0.434.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 5ms
+2017-04-06 23:01:54.916 [info] <0.434.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 16ms
+2017-04-06 23:01:57.487 [info] <0.434.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 3ms
+2017-04-06 23:01:57.498 [info] <0.434.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 6ms
+2017-04-06 23:02:03.399 [info] <0.440.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 14ms
+2017-04-06 23:02:58.720 [info] <0.442.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 16ms
+2017-04-06 23:03:05.538 [info] <0.445.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 6ms
+2017-04-06 23:03:05.548 [info] <0.445.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 6ms
+2017-04-06 23:03:09.201 [info] <0.445.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 6ms
+2017-04-06 23:03:09.209 [info] <0.445.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
