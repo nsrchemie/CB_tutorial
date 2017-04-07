@@ -15,3 +15,7 @@ create('POST', []) ->
  NewGreeting = greeting:new(id, GreetingText),
  {ok, SavedGreeting} = NewGreeting:save(),
  {redirect, [{action, "list"}]}.
+
+goodbye('POST', []) ->
+   boss_db:delete(Req:post_param("greeting_id")),
+   {redirect, [{action, "list"}]}.

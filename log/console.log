@@ -318,3 +318,58 @@
 2017-04-06 21:28:05.048 [info] <0.334.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 6ms
 2017-04-06 21:28:11.751 [info] <0.336.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 3ms
 2017-04-06 21:28:11.760 [info] <0.336.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 21:37:12.505 [info] <0.345.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 17ms
+2017-04-06 21:37:17.081 [notice] <0.345.0>@boss_controller_adapter_pmod:action:111 [ChicagoBoss] The function cb_tut_greeting_controller:goodbye/2 is not exported, if in doubt add -export([goodbye/2])) to the module
+2017-04-06 21:37:17.083 [warning] <0.345.0>@boss_web_controller_handle_request:log_status_code:186 POST /greeting/goodbye [cb_tut] 404 4ms
+2017-04-06 21:37:25.444 [info] <0.349.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 15ms
+2017-04-06 21:37:28.179 [info] <0.349.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 4ms
+2017-04-06 21:37:28.187 [info] <0.349.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 21:37:32.238 [info] <0.349.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 6ms
+2017-04-06 21:37:37.977 [info] <0.355.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 4ms
+2017-04-06 21:37:37.989 [info] <0.355.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 7ms
+2017-04-06 22:36:52.195 [notice] <0.358.0>@boss_controller_adapter_pmod:action:111 [ChicagoBoss] The function cb_tut_greeting_controller:goodbye/2 is not exported, if in doubt add -export([goodbye/2])) to the module
+2017-04-06 22:36:52.197 [warning] <0.358.0>@boss_web_controller_handle_request:log_status_code:186 POST /greeting/goodbye [cb_tut] 404 31ms
+2017-04-06 22:38:27.440 [info] <0.360.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 22:38:27.440 [notice] <0.360.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:38:27.441 [error] <0.360.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greeting_controller.erl" -> {"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl",[{{21,25},erl_scan,{string,34,"list}]}.\n"}}]}
+2017-04-06 22:38:27.441 [info] <0.360.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 200 1ms
+2017-04-06 22:42:36.735 [info] <0.362.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 22:42:36.735 [notice] <0.362.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:42:36.736 [error] <0.362.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greeting_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl",[{19,erl_parse,["syntax error before: ","'->'"]}]}]
+2017-04-06 22:42:36.736 [info] <0.362.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 200 3ms
+2017-04-06 22:42:38.677 [info] <0.362.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 22:42:38.677 [notice] <0.362.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:42:38.678 [error] <0.362.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greeting_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl",[{19,erl_parse,["syntax error before: ","'->'"]}]}]
+2017-04-06 22:42:38.678 [info] <0.362.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/goodbye [cb_tut] 200 3ms
+2017-04-06 22:42:42.297 [info] <0.362.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 22:42:42.297 [notice] <0.362.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:42:42.298 [error] <0.362.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greeting_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl",[{19,erl_parse,["syntax error before: ","'->'"]}]}]
+2017-04-06 22:42:42.298 [info] <0.362.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 22:42:44.559 [info] <0.362.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 22:42:44.559 [notice] <0.362.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:42:44.560 [error] <0.362.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greeting_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl",[{19,erl_parse,["syntax error before: ","'->'"]}]}]
+2017-04-06 22:42:44.560 [info] <0.362.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 22:42:47.666 [info] <0.362.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 22:42:47.666 [notice] <0.362.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:42:47.667 [error] <0.362.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greeting_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl",[{19,erl_parse,["syntax error before: ","'->'"]}]}]
+2017-04-06 22:42:47.667 [info] <0.362.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/ [cb_tut] 200 7ms
+2017-04-06 22:42:52.085 [info] <0.362.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 22:42:52.085 [notice] <0.362.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:42:52.086 [error] <0.362.0>@boss_load:compile_and_accumulate_errors:270 Compile Error, "src/controller/cb_tut_greeting_controller.erl" -> [{"/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl",[{19,erl_parse,["syntax error before: ","'->'"]}]}]
+2017-04-06 22:42:52.086 [info] <0.362.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/hello [cb_tut] 200 1ms
+2017-04-06 22:43:39.804 [info] <0.370.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 22:43:39.804 [notice] <0.370.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 22:43:39.813 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/hello [cb_tut] 200 10ms
+2017-04-06 22:43:43.566 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 6ms
+2017-04-06 22:43:46.916 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 5ms
+2017-04-06 22:43:46.925 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 5ms
+2017-04-06 22:43:50.163 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 4ms
+2017-04-06 22:43:50.170 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 22:43:53.310 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 3ms
+2017-04-06 22:43:53.318 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 22:43:55.545 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 4ms
+2017-04-06 22:43:55.556 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 5ms
+2017-04-06 22:43:57.832 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 4ms
+2017-04-06 22:43:57.838 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 22:44:00.189 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/goodbye [cb_tut] 302 2ms
+2017-04-06 22:44:00.198 [info] <0.370.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
