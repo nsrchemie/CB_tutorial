@@ -302,3 +302,19 @@
 2017-04-06 17:58:49.690 [info] <0.313.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
 2017-04-06 17:58:49.690 [notice] <0.313.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
 2017-04-06 17:58:49.696 [info] <0.313.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 7ms
+2017-04-06 18:12:59.836 [info] <0.316.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 17ms
+2017-04-06 18:15:38.188 [notice] <0.319.0>@boss_controller_adapter_pmod:action:111 [ChicagoBoss] The function cb_tut_greeting_controller:create/2 is not exported, if in doubt add -export([create/2])) to the module
+2017-04-06 18:15:38.208 [info] <0.319.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 21ms
+2017-04-06 21:26:29.836 [info] <0.322.0>@boss_controller_compiler:compile:71 Compile controller /home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl
+2017-04-06 21:26:29.836 [notice] <0.322.0>@boss_compiler:compile:47 Compile file "/home/nsrchemie/Documents/cb_tut/src/controller/cb_tut_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/nsrchemie/Documents/cb_tut/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2017-04-06 21:26:29.843 [info] <0.322.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 30ms
+2017-04-06 21:26:29.849 [info] <0.322.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
+2017-04-06 21:26:32.168 [info] <0.322.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 6ms
+2017-04-06 21:26:38.495 [info] <0.327.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 5ms
+2017-04-06 21:26:38.502 [info] <0.327.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 21:27:56.394 [info] <0.330.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 5ms
+2017-04-06 21:27:58.996 [info] <0.330.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 3ms
+2017-04-06 21:27:59.005 [info] <0.330.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 4ms
+2017-04-06 21:28:05.048 [info] <0.334.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/create [cb_tut] 200 6ms
+2017-04-06 21:28:11.751 [info] <0.336.0>@boss_web_controller_handle_request:log_status_code:188 POST /greeting/create [cb_tut] 302 3ms
+2017-04-06 21:28:11.760 [info] <0.336.0>@boss_web_controller_handle_request:log_status_code:188 GET /greeting/list [cb_tut] 200 3ms
