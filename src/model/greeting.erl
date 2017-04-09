@@ -6,3 +6,10 @@ validation_tests() ->
 	"Greeting must be nonempty"},
   {fun() -> length(GreetingText) =< 140 end,
 	"Too long!"}].
+
+before_create() ->
+  ModifiedRecord = set(greeting_text,
+		re:replace(GreetingText,
+		"masticate", "chew",
+		[{return, list}])),
+  {ok, ModifiedRecord}.
